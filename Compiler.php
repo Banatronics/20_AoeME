@@ -11,7 +11,7 @@
 
 # --- Compiler configuration --- #
 
-SCX::$scenarios_path = "c:\wamp64\www\Test2\Scenario";
+SCX::$scenarios_path = 'c:\wamp64\www\GitHub\20_AoeME\Scenario';
 SCX::$input_scenario = 'My Map.scx';
 SCX::$output_name = 'My Compiled Map.scx';
 SCX::$hide_triggers = false; # Hide triggers names

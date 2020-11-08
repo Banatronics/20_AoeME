@@ -60,7 +60,7 @@ White: 			0x0F
     
 	SetPlayersCount(2);
     SetMapSize(240);
-    SetTerrainFromImage('c:\wamp64\www\Test2\Data\Denmark_v2_16_converted_upd_units_VF_90deg.png', array(
+    SetTerrainFromImage('c:\wamp64\www\GitHub\20_AoeME\Data\Denmark_v2_16_converted_upd_units2.png', array(
       C_Red =>      array(TERRAIN_ROAD,             0), # Bind color 9 (red) to TERRAIN_ROAD
       C_Yellow =>   array(TERRAIN_BEACH,            0), # Bind color 11 (yellow) to TERRAIN_BEACH
       C_Blue =>     array(TERRAIN_WATER_SHALLOW,    0), # Bind color 12 (blue) to TERRAIN_WATER_SHALLOW
