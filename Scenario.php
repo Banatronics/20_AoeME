@@ -60,16 +60,16 @@ White: 			0x0F
     
 	SetPlayersCount(2);
     SetMapSize(240);
-    SetTerrainFromImage('c:\wamp64\www\GitHub\20_AoeME\Data\Denmark_v2_16_converted_upd_units2.png', array(
+    SetTerrainFromImage('c:\wamp64\www\GitHub\20_AoeME\Data\EUR-AFRICA_16_converted.png', array(
       C_Red =>      array(TERRAIN_ROAD,             0), # Bind color 9 (red) to TERRAIN_ROAD
       C_Yellow =>   array(TERRAIN_BEACH,            0), # Bind color 11 (yellow) to TERRAIN_BEACH
       C_Blue =>     array(TERRAIN_WATER_SHALLOW,    0), # Bind color 12 (blue) to TERRAIN_WATER_SHALLOW
       C_Green =>    array(TERRAIN_FOREST,           0), # Bind color 2 (green) to TERRAIN_FOREST
       C_Lime =>     array(TERRAIN_GRASS_1,          0),  # Bind color 10 (lime) to TERRAIN_GRASS_1
+      C_Navy =>     array(TERRAIN_DESERT,           0),  # Bind color 4 (navy) to TERRAIN_DESERT
       
       C_Fuchsia =>  array(TERRAIN_GRASS_1,          U_FORAGE_BUSH),  # Bind color 13 (fuchsia) to TERRAIN_GRASS_1 and then create an U_FORAGE_BUSH object
-      C_Black =>    array(TERRAIN_GRASS_1,          U_WALL_FORTIFIED),  # Bind color 0 (black) to TERRAIN_GRASS_1 and then create an U_WALL_FORTIFIED object
-      C_Gray =>     array(TERRAIN_GRASS_1,          U_GATE_AA2),  # Bind color 7 (gray) to TERRAIN_GRASS_1 and then create an U_GATE_AA2 object
+      C_Black =>    array(TERRAIN_DESERT,           U_FOREST_PALM),  # Bind color 0 (black) to TERRAIN_DESERT and then create an U_FOREST_PALM object
       C_Silver =>   array(TERRAIN_GRASS_1,          U_STONE_MINE),  # Bind color 7 (gray) to TERRAIN_GRASS_1 and then create an U_GATE_AA2 object
       C_Olive =>    array(TERRAIN_GRASS_1,          U_GOLD_MINE),  # Bind color 7 (gray) to TERRAIN_GRASS_1 and then create an U_GATE_AA2 object
       C_Maroon =>   array(TERRAIN_GRASS_1,          U_SHEEP),  # Bind color 7 (gray) to TERRAIN_GRASS_1 and then create an U_GATE_AA2 object

@@ -18,8 +18,8 @@
     define("C_Aqua",14);
     define("C_White",15);
 
-    $outFile = 'c:\wamp64\www\Test2\Data\Denmark_v2_16_converted.bmp';
-    FormatImg('c:\wamp64\www\Test2\Data\Denmark_v2_16.bmp');
+    $outFile = 'c:\wamp64\www\GitHub\20_AoeME\Data\EUR-AFRICA_16_converted.bmp';
+    FormatImg('c:\wamp64\www\GitHub\20_AoeME\Data\EUR-AFRICA_16.bmp');
     
 
     function FormatImg($filename)
